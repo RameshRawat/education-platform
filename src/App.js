@@ -21,7 +21,7 @@ function App() {
           <Route exact path='/courses' element={<CourseHome />} />
           <Route exact path='/college/:id' element={<CollegeDetail />} />
           <Route exact path='/team' element={<Team />} />
-          <Route exact path='/pricing' element={<Pricing />} />
+          <Route exact path='/Scholarships' element={<Pricing />} />
           <Route exact path='/journal' element={<Blog />} />
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='*' element={<h1>page not found</h1>} />

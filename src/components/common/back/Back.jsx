@@ -8,8 +8,8 @@ const Back = ({ title }) => {
   return (
     <>
       <section className='back'>
-      {title!=="CollegeDetail" && <> <h2>Home / {location.pathname.split("/")[1]}</h2>
-        <h1 className="ramesh">{title}</h1></>}
+      {title!=="CollegeDetail" && <> <h2 className="mtClass" >Home  {location.pathname.split("/")[1]!=="courses"?location.pathname.split("/")[1]:"Colleges"}</h2>
+        <h1 className="ramesh" style={{fontSize:"60px", marginTop:"50px"}}>{title}</h1></>}
       </section>
      {title!=="CollegeDetail" &&<div className='margin'></div>}
     </>

@@ -27,7 +27,7 @@ const CoursesCard = () => {
               </div>
               <div className='University'>
                 <h3>
-                  {val?.University} / {val.location}
+                  {val?.University}
                 </h3>
               </div>
               <button className='outline-btn' onClick={()=>navigate(`/college/${val?.id}`)}>VISIT NOW !</button>

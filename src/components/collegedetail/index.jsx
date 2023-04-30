@@ -5,6 +5,7 @@ import { coursesCard } from "../../dummydata";
 import Header from "../common/header/Header";
 import Hero from "../home/hero/Hero";
 import Back from "../common/back/Back";
+import { LineWeight } from "@mui/icons-material";
 
 const CollegeDetail = () => {
   const [myDetail, setMydetail] = useState({});
@@ -42,7 +43,7 @@ const CollegeDetail = () => {
                 style={{ padding: "20px 0px 20px 0px" }}
                 className="lg:w-1/2 w-[200px] lg:h-auto h-64 object-cover object-center rounded"
                 src={myDetail?.image}
-                width="300px"
+                width="100%"
               />
               <div
                 className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0"
@@ -64,20 +65,35 @@ const CollegeDetail = () => {
             {myDetail?.syllabus?.map((items, i) => {
                   return (
                     <>
-              <div
-                className="rootsub"
+              
+                {/* className="rootsub"
                 key={i}
                 style={i%2===0?{
                   display: "flex",
                   justifyContent: "space-around",
                   padding: "0px 20px 20px 20px",
+                  fontweight:"bold",
                   backgroundColor:"greenyellow"
-                }:{ display: "flex",
+                }:
+                { display: "flex",
                 justifyContent: "space-around",
                 padding: "0px 20px 20px 20px",}}
-              >
+              > */}
+<div className="parentmain">
+               <div className="mainhead-syll01">
+               {items?.syllabusName}
+               </div>
+
+              <div className="mainhead-syll">
+               {items?.syllabushead}
+               </div>
+               </div>
+
                
-                      <div className="leftsub">{items?.semester}</div>
+              <div className="subjectname0">
+                      <div className="leftsub">{items?.semester}
+                      </div>
+
                       <div className="rightsub">
                         {  console.log('item',items?.subjects)}
                         <ul>
@@ -92,15 +108,23 @@ const CollegeDetail = () => {
                          })
                         }
                         </ul>
+                     
                       </div>
-              </div>
+                      </div>
                     </>
                   );
                 })}
             </section>
           </div>
         </div>
-        <h2 style ={{display:"flex", justifyContent:"center", background:"#333333", color:"white"}}>{myDetail.location}</h2>
+        <div className="locationText">
+        <h2 style ={{display:"flex", justifyContent:"center", background:"#a647e1", color:"white"}}>
+            {myDetail.location}</h2></div>
+
+        <div className="moredetailspage">
+            <a href="https://www.collegenote.net/courses/TU/CSIT/1/" target="_blank">CLICK HERE FOR MORE DETAILS</a>
+            </div>
+        
       </section>
     </>
   );

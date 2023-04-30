@@ -60,48 +60,50 @@ export const coursesCard = [
     cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
     collegeName: "Amrit Science Campus",
     describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. Some of the finest technical manpower, who are now involved in different development activities both at home and abroad, were students of Amrit Campus.The Campus is a semi-autonomous institution under Institute of Science and Technology with partial decentralization, affiliated to Tribhuvan University.",
-    university:"Tribhuvan University",
-    location:" Location--->ASCOL Kathmandu Thamel",
+    University:"Tribhuvan University Kathmandu Thamel",
+    location:"Nice to see you! Happy learning",
     program:"Computer Science and Information Technology",
     syllabus:[
       {
       semester:"First Semester",
-      subject:["subject1",'subject2','subject3','subject4','subject5']
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
       
     },
       {
       semester:"Second Semester",
-      subject:["subject1",'subject2','subject3','subject4','subject5']
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
       
     },
       {
       semester:"Third Semester",
-      subject:["subject1",'subject2','subject3','subject4','subject5']
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
       
     },
       {
       semester:"Fourth Semester",
-      subject:["subject1",'subject2','subject3','subject4','subject5']
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
       
     },
       {
       semester:"Fifth Semester",
-      subject:["subject1",'subject2','subject3','subject4','subject5']
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
       
     },
       {
-      semester:"6th Semester",
-      subject:["subject1",'subject2','subject3','subject4','subject5']
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
       
     },
       {
-      semester:"7th Semester",
-      subject:["subject1",'subject2','subject3','subject4','subject5']
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
       
     },
       {
-      semester:"8th Semester",
-      subject:["subject1",'subject2','subject3','subject4','subject5']
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
       
     },
   
@@ -109,102 +111,601 @@ export const coursesCard = [
   },
   {
     id: 2,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://www.collegenp.com/uploads/2023/02/Patan-Multiple-Campus-Building.jpg",
+    cover: "https://www.collegenp.com/uploads/2023/02/Patan-Multiple-Campus-Building.jpg",
+    collegeName: "Patan Multiple Campus",
+    describe: "Patan Multiple campus is a constituent campus of Tribhuvan University, it offers both Bachelors and Masters program in the faculties of Humanities and social sciences, Faculty of Management and Faculty of Science.This campus conducts several programs such as general science, environment science, masters, different ARTS faculty and Bs.CSIT The source stated that the education sector is not a priority for the Prime Minister and the appointment process has resulted in a waste of time and manpower. .",
+    University:"Tribhuvan University Patan Dhoka, Lalitpur",
+    location:"Nice to see you! Happy learning",
+  
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
+  
   {
     id: 3,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/162568048_202757191640533_3821416872502363465_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=QEAgM3I5wY0AX_Ih98A&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDLfM2ssaZ_M3q4-iGYgY8mru4Yp3NyyVWeP9Fqm11IAg&oe=647571C2",
+    cover: "https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/162568048_202757191640533_3821416872502363465_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=QEAgM3I5wY0AX_Ih98A&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDLfM2ssaZ_M3q4-iGYgY8mru4Yp3NyyVWeP9Fqm11IAg&oe=647571C2",
+    collegeName: "Bhaktapur Multiple Campus",
+    describe: "At Bhaktapur Multiple Campus, we believe in a student-centered approach to teaching, where the needs and interests of each individual student are taken into account. We encourage active learning and engagement, and our teaching methods are designed to stimulate critical thinking, creativity, and problem-solving skills. Our faculty members are experts in their respective fields, and they use a range of teaching methods, including lectures, discussions, case studies, group projects, and experiential learning activities, to ensure that students receive a well-rounded education. ",
+    University:"Tribhuvan University Nagarkot Road, Bhaktapur",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
+ 
   },
   {
     id: 4,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/260296898_417385490026450_4528542243393912081_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=XoTyXxFKt2EAX_URCAK&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBZzWExMOyrO19B31MEUQ7HfXHzndRua6Q5J2YRmOR0-Q&oe=6452A211",
+    cover: "https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/260296898_417385490026450_4528542243393912081_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=XoTyXxFKt2EAX_URCAK&_nc_ht=scontent.fktm8-1.fna&oh=00_AfBZzWExMOyrO19B31MEUQ7HfXHzndRua6Q5J2YRmOR0-Q&oe=6452A211",
+    collegeName: "St. Xavier College",
+    describe: "St. Xavier's College, located at Maitighar, Kathmandu is an educational institution of higher learning established in 1988 AD. Since its very inception the College has been offering quality education and has contributed to the development of the nation through the production of highly qualified human resources.St. Xavier's College, Kathmandu is managed by the Nepal Jesuit Society. Jesuits began their educational work in Nepal in 1951 with the opening of St. Xavier's School, the Godavari, followed by St. Xavier's School, Jawalakhel and St. Xavier's School, Deonia. Other schools run by Nepal Jesuit Society are Moran Memorial School, Maheshpur and St.Xavier's, Sadakbari. ",
+    University:"Tribhuvan University Maitighar, Kathmandu",
+    location:"Nice to see you! Happy learning",
+
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
   {
     id: 5,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/327210844_1639129149875219_8914991832481036743_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Cbvl-X-avvkAX-px77A&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCyrkceIGheZI54K8R3Cy7Av-SmWwASzmp3XuaoZ9Otlw&oe=64525E79",
+    cover: "https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/327210844_1639129149875219_8914991832481036743_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Cbvl-X-avvkAX-px77A&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCyrkceIGheZI54K8R3Cy7Av-SmWwASzmp3XuaoZ9Otlw&oe=64525E79",
+    collegeName: "Madan Bhandari Memorial College",
+    describe: "Late Madan Kumar Bhandari is well known as the People’s Leader in the country and the Madan Bhandari Memorial College was established in the year 2001 AD with an aim to follow his academic vision. The college is a non-profit academic institution formed by the organization called Madan Bhandari Foundation. Madan Bhandari Memorial College delivers quality education to the students at an affordable price with an aim to transform itself into an academic excellence hub. The college has outstanding academic ambience to help the students learn independently, to achieve and develop significant learning skills and confidence that guarantee their treasured future goals and offers a numerous courses at graduate and undergraduate level. ",
+    University:"Tribhuvan University New Baneshwor, Kathmandu",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
   {
     id: 6,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://bmc.edu.np/wp-content/uploads/2020/08/building.jpg",
+    cover: "https://bmc.edu.np/wp-content/uploads/2020/08/building.jpg",
+    collegeName: "Birendra Multiple Campus",
+    describe: "Birendra Multiple Campus that we see today in its form and features, was established on the 1st Baishakh, 2022 BS. as 'Birendra Intermediate Arts College', named after late King Birendra, with the initiation and efforts of academicians, social workers, guardians, donors, and local institutions feeling the need of an academic institution of higher education for the growing population of the district after Chitwan was open for settlement in 2011 BS. The college had its hard times in its infancy as it did not have its own building and premises. With great labor pain, it took its birth in Chitwan High School Building at night with 14 students, and later it was shifted to a rented house at Narayangarh. ",
+    University:"Tribhuvan University Bharatpur, Chitwan",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
   {
     id: 7,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/305999907_400269098933616_3264581502154848200_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=wdXeL7pD-yIAX_RF3vO&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCUQiiATpj_SSjhKjFaTCnkbhTP2omxLoBxRxcP9ihafA&oe=64522111",
+    cover: "https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/305999907_400269098933616_3264581502154848200_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=wdXeL7pD-yIAX_RF3vO&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCUQiiATpj_SSjhKjFaTCnkbhTP2omxLoBxRxcP9ihafA&oe=64522111",
+    collegeName: "Prithvi Narayan Campus",
+    describe: "Students are the most important part of the community of scholars. Our faculty and academic staff are well trained and experienced, eminent in their fields. The chain of knowledge stretches back far into the past, and it is important that it be carried into the future, with commitment, care and dedication. The pursuit of knowledge requires rigorous analysis, careful scholarship and imaginative and creative powers. Congratulations on beginning our students’ career as a Bachelor’s or Master’s student in the campus. I hope it will be immensely satisfying. Our faculty and administrative staff are here to assist and support our students, and our students will find out about many ways in which this support is offered in this website. ",
+    University:"Tribhuvan University Bhim Kali Patan Marga 1, Pokhara",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
   {
     id: 8,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://lh3.googleusercontent.com/p/AF1QipMNh0B34nAu7FFJSGX1ET_AHfrXO4hOisaLRfiF=s1360-w1360-h1020",
+    cover: "https://lh3.googleusercontent.com/p/AF1QipMNh0B34nAu7FFJSGX1ET_AHfrXO4hOisaLRfiF=s1360-w1360-h1020",
+    collegeName: "Prime College",
+    describe: "Students' needs are met by the college's provision of the best directive teachers, academics, specialists, and faculty members. Unlike other colleges, Prime College offers facilitators who provide students adequate room to establish their own goals, explore their hobbies, and ensure that their route is eminent with their uttermost guidance at every step when needed. Prime's programs are unique in that they provide students with both theoretical and practical knowledge. Prime is known around the country for its world-class academic programs as well as an increasing number of community and civic participation activities. Similarly, Prime clubs are made up of active students. These five clubs encourage students to learn via experience by putting on their own activities. They help kids develop leadership skills, support them in receiving initiation, and improve their creativity and ingenuity. Prime Clubs have not only participated in events on campus but have also organized programs outside of campus. ",
+    University:"Tribhuvan University Nayabazar, Kathmandu",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
   {
     id: 9,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://saralnotes.com/wp-content/uploads/2019/11/NEW-SUMMIT-COLLEGE-building.jpg",
+    cover: "https://saralnotes.com/wp-content/uploads/2019/11/NEW-SUMMIT-COLLEGE-building.jpg",
+    collegeName: "New Summit College",
+    describe: "NSC envisions that up-to-date knowledge and technology are two of the most indispensable assets every student must possess to be successful in the ever-changing IT and Business environment. Keeping these aspects in the core, the college strives to enrich the students with the latest and most up- to-date values, cutting-edge knowledge, and skills in Science, Management and Information Technology, so that they are always leaders in life and competitive in job market. ",
+    University:"Tribhuvan University Baneshwor, Kathmandu",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
   {
     id: 10,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://upload.wikimedia.org/wikipedia/commons/c/c0/Sagarmatha_Engineering_College_-_Building_2.jpg",
+    cover: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sagarmatha_Engineering_College_-_Building_2.jpg",
+    collegeName: "Sagarmatha Engineering College",
+    describe: "One of the parameters for judging any academic institution is the research activities it is pursuing. From the day one of the establishment of this college we are committed to conducting research and development. At this point, I am proud to point out that we have different research cell in both the departments and research activities are being undertaken by the concerned faculties and students in the departments. We understand that the superiority of any academic institution lies on the performance of students. We highly believe our students and encourage them to take the advantage of all the supports available to them at Sagarmatha. ",
+    University:"Tribhuvan University Sanepa, Lalitpur",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
   {
     id: 11,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    image:"https://ioe.edu.np/media/1267/himalaya.jpg",
+    cover: "https://ioe.edu.np/media/1267/himalaya.jpg",
+    collegeName: "Himalaya College of Engineering (HOCE)",
+    describe: "Himalaya College of Engineering (HCOE) is affiliated with Tribhuvan University (TU) Nepal. The College was established in June 2000 AD to produce qualified professionals in the country who are the backbone of development. Himalaya College of Engineering offers BSc in Computer Science and Information Technology (BSc CSIT) along with a Bachelor of Computer Engineering, Electronics and Information Engineering, Civil Engineering, and Architecture Engineering with the affiliation from Tribhuvan University. ",
+    University:"Tribhuvan University Chyasal-9, Lalitpur",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
   {
-    id: 1,
-    image:"https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    cover: "https://lh3.googleusercontent.com/p/AF1QipO53DmDLNx3Y6WWywSQdEIRnPxToGKhOkLLLwaY=s1360-w1360-h1020",
-    collegeName: "Amrit Science Campus",
-    describe: "Amrit Science Campus (ASCOL), situated in the heart of Kathmandu Valley, is the unique science campus of the country. ",
-    University:"Tribhuvan University",
-    location:"Kathmandu Thamel"
+    id: 12,
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLE5wDajG_L8SMfL8SD1NURd7ZVpd3OEVVZaWmrkRB1Q&s",
+    cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLE5wDajG_L8SMfL8SD1NURd7ZVpd3OEVVZaWmrkRB1Q&s",
+    collegeName: " Kathmandu College of Technology",
+    describe: "Kathmandu College of Technology (KCT) formerly known as Samajik College is located in Lokanthali, Bhaktapur, Nepal. The College is established with an aim to significantly contribute to shaping the career of +2 graduates in the field of IT and Computing. Kathmandu College of Technology offers BCA  and B.Sc CSIT programs under the affiliation of Tribhuvan University. ",
+    University:"Tribhuvan University Lokanthali, Bhaktapur",
+    location:"Nice to see you! Happy learning",
+    syllabus:[
+      {
+      semester:"First Semester",
+      syllabusName:"Syllabus",
+      syllabushead:"These are all the courses in CSIT course offered by TU. CSIT have 65 courses, among which 36 are compulsory & 29 are elective.",
+      subject:["Introduction to Information Technology",'C Programming','Digital Logic','Mathematics I (Calculus)','Physics']
+      
+    },
+      {
+      semester:"Second Semester",
+      subject:["Discrete Structures",'Object Oriented Programming','Microprocessor','Mathematics II','Statistics I']
+      
+    },
+      {
+      semester:"Third Semester",
+      subject:["Data Structures and Algorithms",'Numerical Method','Computer Architecture','Computer Graphics','Statistics II']
+      
+    },
+      {
+      semester:"Fourth Semester",
+      subject:["Theory of Computation",'Computer Networks','Operating Systems','Database Management System','Artificial Intelligence']
+      
+    },
+      {
+      semester:"Fifth Semester",
+      subject:["Design and Analysis of Algorithms",'System Analysis and Design','Cryptography','Simulation and Modelling','Web Technology','Multimedia Computing(elective)' ,'Wireless Networking(elective)']
+      
+    },
+      {
+      semester:"Six Semester",
+      subject:["Software Engineering",'Compiler Design and Construction','E-Governance','NET Centric Computing','Technical Writing','E-commerce (elective)']
+      
+    },
+      {
+      semester:"Seven Semester",
+      subject:["Advanced Java Programming",'Data Warehousing and Data Mining','Principles of Management','Project Work','Software Project Management (elective)']
+      
+    },
+      {
+      semester:"Eight Semester",
+      subject:["Advanced Database",'Internship','Advanced Networking with IPv6 (elective)','Distributed Networking (elective)','Game Technology (elective)']
+      
+    },
+  
+  ]
   },
 
 
@@ -285,19 +786,19 @@ export const online = [
 ]
 export const team = [
   {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/327982583_3409084139330009_590855541197222166_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pv6T7SKFKb8AX8nDSNm&_nc_ht=scontent.fktm8-1.fna&oh=00_AfC9HvzwlvZvRes-uRW2cjcQyyGbdC82SzexMiSjig1Diw&oe=6453DAD2",
+    name: "Dikshant Niraula",
+    work: "Backend Developer",
   },
   {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/329135228_3700428760243332_3309422861877872692_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=OyncyaA4DAoAX-DQW-O&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCuiowtiAXc6ktTuzhsRyFRSDbn76Z89UqWQk-IuvKPdA&oe=64546B7A",
+    name: "Ramesh Rawat",
+    work: "Frontend Developer",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/270113676_3001373626747622_291274881638331718_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZIHo_i0TmLYAX-DooCk&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCm9zKC5l-F8sdv4dCYSWKUWbwzFju0KZrUdegSt8Uolw&oe=6453D167",
+    name: "Bhishma Bhattarai",
+    work: "Frontend Developer",
   },
   // {
   //   cover: "./images/team/t4.webp",

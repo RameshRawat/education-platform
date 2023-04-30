@@ -49,7 +49,7 @@ const Footer = () => {
       {/* Same as */}
       <section className="newletter">
         <div className="container flexSB">
-          <div className="left row">
+          <div className="left row resrow1">
             <h1>Subscribe to Our Newsletter</h1>
           </div>
           <div className="right row" style={{position:"relative"}}>
